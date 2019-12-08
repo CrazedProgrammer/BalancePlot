@@ -1,0 +1,10 @@
+authors = ["CrazedProgrammer <crazedprogrammer@gmail.com>"]
+name = "BalancePlot"
+uuid = "6003c6b6-0e25-11ea-0340-ed10a67a42fc"
+version = "0.0.1"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Decimals = "abce61dc-4473-55a0-ba07-351d65e31d42"
