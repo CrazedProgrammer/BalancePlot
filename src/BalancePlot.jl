@@ -123,7 +123,7 @@ function plot_transactions(transactions::Array{Transaction})
     yticks = inbetween_value_from_values(collect(Iterators.flatten(balances)), 250.0)
 
     plotly()
-    plot(xlabel=xlabel, ylabel=ylabel, xticks=xticks, yticks=yticks, size=[1800, 1000])
+    plot(xlabel=xlabel, ylabel=ylabel, xticks=xticks, yticks=yticks, window_title="BalancePlot.jl", size=[1800, 1000])
     map(function(data)
             plot!(data[2], data[1], label=data[3])
         end,
